@@ -9,15 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://cdnjs.com/libraries/animate.css/" rel='stylesheet' type='text/css'>
     
-    <!--
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    -->
-    
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     
     <!-- You can add Bootstrap to any app by adding the following code to the top of your HTML -->
@@ -61,7 +52,7 @@
     $("document").ready(function() {
         
         $("button").addClass("animated bounce");
-        $("div").addClass("animated shake");
+        $(".well").addClass("animated shake");
         
     });   
     </script>
